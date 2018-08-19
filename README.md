@@ -19,7 +19,9 @@ TestNG
 Selenium
 
 # How to run
-
+1. Install TestNG plugin in eclipse
+2. import project into eclipse 
+3. right click on test class. Select Run as > TestNG test
 
 # Time to complete assignment
 7 hours

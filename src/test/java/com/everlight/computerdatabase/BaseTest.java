@@ -89,9 +89,14 @@ public class BaseTest {
 	 */
 	public void initialize() throws IOException {
 		 log.info("WebDriver has been initialized successfully");
-		 DRIVER.get(CONFIG.getProperty("ComputerDBUrl"));
-		 DRIVER.manage().window().maximize();
-		 DRIVER.manage().timeouts().implicitlyWait(3000, TimeUnit.MILLISECONDS);
+		 if(CONFIG != null && DRIVER != null) {
+			 DRIVER.get(CONFIG.getProperty("ComputerDBUrl"));
+			 DRIVER.manage().window().maximize();
+			 DRIVER.manage().timeouts().implicitlyWait(3000, TimeUnit.MILLISECONDS);
+		 } else {
+			 initConfigAndData();
+			 loadDriver();
+		 }
 	}
 	
 	/**

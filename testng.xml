@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="tests" parallel="tests" thread-count="1">
+     <test name="CreateUpdate">
+        <groups>
+            <run>
+                <exclude name="" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.everlight.computerdatabase.CreateUpdateComputerTest" />
+        </classes>
+    </test>
+    <test name="ReadSearch">
+        <classes>
+            <class name="com.everlight.computerdatabase.ReadAndSearchTest" />
+        </classes>
+    </test>
+    <test name="Delete">
+        <classes>
+            <class name="com.everlight.computerdatabase.DeleteComputerTest" />
+        </classes>
+    </test>
+  </suite>

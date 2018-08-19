@@ -23,5 +23,14 @@ Selenium
 2. import project into eclipse 
 3. right click on test class. Select Run as > TestNG test
 
+OR
+
+1. Run mvn clean install in the project's root directory
+
+OR
+
+1. Righ click on testng.xml.
+2. Select RUn as > TestNG test suite
+
 # Time to complete assignment
 7 hours

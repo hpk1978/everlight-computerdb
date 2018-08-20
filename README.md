@@ -33,5 +33,5 @@ OR
 2. Select RUn as > TestNG test suite
 
 # Time to complete assignment
+Manual - 2 hrs\n
 Automation - 7 hours
-Manual - 2 hrs
